@@ -1,0 +1,19 @@
+Name: Manu Parashar
+CCID: mparasha
+
+Q1. os.environ from os module gives a dictionary with all the environment variables.
+
+Q2. QUERY_STRING environment variable  contains the query parameter data
+
+Q3.
+
+Q4.
+
+Q5.
+
+Q6.
+
+Q7.
+
+Q8.
+
