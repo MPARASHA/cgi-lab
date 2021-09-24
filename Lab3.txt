@@ -3,17 +3,24 @@ CCID: mparasha
 
 Q1. os.environ from os module gives a dictionary with all the environment variables.
 
-Q2. QUERY_STRING environment variable  contains the query parameter data
+Q2. QUERY_STRING environment variable contains the query parameter data.
 
-Q3.
+Q3. HTTP_USER_AGENT environment variable contains information about the user’s browser.
 
-Q4.
+Q4. using cgi.FieldStorage() we get a dictionary which reads the form data from the environment or the standard input.
 
-Q5.
+Q5. HTTP/2.0 200 OK
+    Content-Type: text/html
+    Set-Cookie: <cookie_name>=<cookie_value>
 
-Q6.
+Q6. GET /sample_page.html HTTP/2.0
+    Host: www.example.org
+    Cookie: cookie_name>=<cookie_value>;
 
 Q7.
 
 Q8.
 
+References:
+    https://docs.python.org/3/library/cgi.html
+    https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies

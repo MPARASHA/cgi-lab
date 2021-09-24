@@ -17,3 +17,8 @@ print(json_object)
 for param in os.environ.keys():
     if param == "QUERY_STRING":
         print("<br><br><b>%20s</b>: %s<b>" % (param, os.environ[param]))
+
+# Q3
+for param in os.environ.keys():
+    if param == "HTTP_USER_AGENT":
+        print("<br><br><b>%20s<b>: %s<br>" % (param, os.environ[param]))
