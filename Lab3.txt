@@ -17,9 +17,10 @@ Q6. GET /sample_page.html HTTP/2.0
     Host: www.example.org
     Cookie: cookie_name>=<cookie_value>;
 
-Q7.
+Q7. Cookies are certain variables with values which the server asks the browser to set such as login info.
+    Then after cookies are set the browser includes them in its http requests. Its handy in completing certain tasks like auto-login.
 
-Q8.
+Q8. https://github.com/MPARASHA/cgi-lab
 
 References:
     https://docs.python.org/3/library/cgi.html
